@@ -1,0 +1,17 @@
+{
+  "name": "google-map",
+  "version": "1.0.0",
+  "description": "Two search addresses and see the related maps",
+  "main": "app.js",
+  "author": "Qurban Ahmad",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "live-server",
+    "dev": "tsc -w && live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "typescript": "^4.5.5"
+  }
+}
